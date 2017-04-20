@@ -1,0 +1,8 @@
+    <?xml version="1.0" encoding="utf-8"?>  
+    <phonegap>  
+        <!-- Load PhoneGap configuration from res/xml/phonegap.xml.  
+          Approved list of URLs that can be loaded into PingAnGap -->  
+        <access origin="(http://.*)|(file://.*)" subdomains="true" />  
+        <!-- Log level: ERROR, WARN, INFO, DEBUG, VERBOSE (default=ERROR) -->  
+        <log level="VERBOSE" />  
+    </phonegap>  
