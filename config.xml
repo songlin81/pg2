@@ -1,2 +1,2 @@
 
-<access origin="*"/>
+<allow-navigation href="*" />
