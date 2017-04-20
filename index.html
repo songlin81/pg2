@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <style>
+        .navbar { border-radius:0; }
+    </style>
+    <script src="./angular.js"></script>
+    <script src="./angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="routerApp">
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#">UI Router</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="about">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    <div class="text-center">
+        <p>A tutorial by <a href="http://scotch.io" target="_blank">scotch.io</a></p>
+    </div>
+</body>
+</html>
